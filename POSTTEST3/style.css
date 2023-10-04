@@ -1,0 +1,200 @@
+* {
+    margin: 20;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #2B2B2B;
+}
+
+h1,h2,h3,p,span{
+    color: #EED6C4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.main-header {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.main-header p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+/* NAVBAR */
+nav {
+    background-color: #423F3E;
+    color: #ffb300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav img{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #EED6C4;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #c09b82;
+}
+
+
+/* main content */
+.main {
+    background-color: #423F3E;
+    padding: 20px;
+    margin-top: 10px;
+  }
+
+.main p{
+    font-size: larger;
+}
+
+
+/* container */
+.container{
+     width: 90%;
+     padding: 25px;
+     background: #2B2B2B;
+     margin: auto ;
+     display: flex;
+     justify-content: center;
+}
+
+.box{
+    width: 200px;
+    /* height: 100px; */
+    background: #2B2B2B;
+    float: left;
+    margin: 0px 10px ;
+    transition: 1s;
+}
+.box:hover{
+    transform:scale(1.1) ;
+}
+
+/* footer */
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Styling Content Kiri */
+.kiri {
+    flex: 1;
+    background-color: #333;
+    padding: 15px;
+}
+
+/* Styling Content Kanan */
+.kanan {
+    flex: 1;
+    background-color: #333;
+    padding: 100px;
+    margin-left: 20px;
+}
+.kanan p{
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+
+/* Light Mode */
+body.light-mode {
+    background-color: #c09b82 ;
+}
+
+.light-mode h1,
+.light-mode h2,
+.light-mode h3,
+.light-mode p,
+.light-mode span {
+    color: #0a0707;
+}
+
+.light-mode .main {
+    background-color: #EED6C4;
+    
+  }
+
+.light-mode nav {
+    background-color: #EED6C4;
+}
+
+.light-mode .menu a {
+    color: #0a0707;
+}
+
+.light-mode .kiri {
+    background-color: #EED6C4;
+}
+
+.light-mode .kanan {
+    background-color: #EED6C4;
+}
+
+.light-mode .container{
+    background: #c09b82;
+}
+
+.light-mode .box{
+    background: #EED6C4;
+}
+
+.light-mode footer {
+    background-color: #EED6C4;
+}
+
+.light-mode #toggle-mode {
+    background-color: #c09b82;
+    color: #2B2B2B; 
+}
+
